@@ -13,7 +13,7 @@
 		<string>English</string>
 
 		<key>CFBundleVersion</key>
-		<string>@JASP_VERSION@</string>
+		<string>@JASP_VERSION_MAJOR@.@JASP_VERSION_MINOR@.@JASP_VERSION_PATCH@</string>
 
 		<key>CFBundleShortVersionString</key>
 		<string>@JASP_SHORT_VERSION@</string>
