@@ -14,7 +14,7 @@ execute_process(
   COMMAND
     @DEPLOYQT_EXECUTABLE@ JASP.app -executable=@JASP_INSTALL_BINDIR@/JASPEngine
     -sign-for-notarization=${IDENTITY} -verbose=3 -qmldir=@JASP_QML_FILES@
-    -hardened-runtime
+    -hardened-runtime -appstore-compliant
   RESULT_VARIABLE result)
 
 if(result)
